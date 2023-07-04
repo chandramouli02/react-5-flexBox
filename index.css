@@ -1,0 +1,46 @@
+/* Write your code here. */
+.main-container {
+  color: white;
+  margin: 30px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Bree Serif";
+}
+.heading {
+  color: black;
+  text-align: center;
+  font-family: "Roboto";
+}
+.boxes-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.center-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-container {
+  height: 40px;
+  width: 40px;
+  background-color: yellow;
+}
+
+.medium-container {
+  height: 100px;
+  width: 100px;
+  background-color: skyblue;
+}
+
+.large-container {
+  height: 200px;
+  width: 200px;
+  background-color: violet;
+}
